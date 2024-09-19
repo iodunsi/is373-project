@@ -21,8 +21,11 @@
 
 ## II. Don't other containerization softwares like Kubernetes exist? Why use Docker over them? 
 ### [Docker vs. Kubernetes](/DockerVSKubernetes.md)
-<image src="" width="50%">
+<!--SVG From svgrepo-->
+<image src="https://www.svgrepo.com/show/331370/docker.svg" width="10%">
+<image src="https://www.svgrepo.com/show/448233/kubernetes.svg" width="10%">
+
 
 ## III. Convinced? You can learn how to install Docker and set it up here: 
-### [Installation Process](/InstallationSetup.md)
-<image src="" width="50%">
+### <!--SVG From Google Fonts--> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 650" width="24px" fill="#5985E1"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> [Installation Process](/InstallationSetup.md)
+
