@@ -5,10 +5,9 @@
 
 In order to setup a CI/CD pipeline on Github, you must initialize it within the "Actions" tab in your repo.
 
-![alt text](vscode-local:/c%3A/Users/odisa/OneDrive/Pictures/Screenshots/Screenshot%202024-09-26%20150337.png)
+![alt text](<Screenshot 2024-09-26 150337.png>)
 
 You will be met with this screen. From there, click "Configure". Then, there will be a file with a basic workflow file template and a .yml extension.
-
 
 ![alt text](<Screenshot 2024-09-26 150855.png>)
 
