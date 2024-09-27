@@ -1,6 +1,6 @@
 # Intro: What Is Docker? 
 
-<image src="https://miro.medium.com/v2/resize:fit:750/format:webp/0*-OZRXs8OyANJBma-.png" align=right>
+<img src="./media/DockerBaiscFlow.png" align=right width="50%">
 
 **Docker** is a tool that performs containerization, allowing a user to easily run and manage many containers. 
 
@@ -16,14 +16,15 @@
 
 ## I. Learn more about why you would use Dockers containerization over just a virtual machine: 
 ### [Virtualization vs. Containerization](/VirtualizationVSContainerization.md)
-<image src="https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-and-vm-transparent-bg.png" width="50%">
+<img src="./media/ContainersVsVM.svg" width="50%">
 
 
 ## II. Don't other containerization softwares like Kubernetes exist? Why use Docker over them? 
 ### [Docker vs. Kubernetes](/DockerVSKubernetes.md)
 <!--SVG From svgrepo-->
-<image src="https://www.svgrepo.com/show/331370/docker.svg" width="10%">
-<image src="https://www.svgrepo.com/show/448233/kubernetes.svg" width="10%">
+<img src="./media/docker-svgrepo-com.svg" width="10%">
+<!--SVG From svgrepo-->
+<img src="./media/kubernetes-svgrepo-com.svg" width="10%">
 
 
 ## III. Convinced? You can learn how to install Docker and set it up here: 
