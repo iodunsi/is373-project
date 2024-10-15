@@ -5,8 +5,7 @@ To install Docker on windows you first will need WSL 2 **(Minimum Req. Windows 1
 ## Install WSL 2: (WINDOWS ONLY) 
 1) First open your windows terminal/powershell as an administrator and run the command “wsl --install” as seen below:	
 
-<image src="https://learn.microsoft.com/en-us/windows/wsl/media/wsl-install.png">
-
+<img src="/media/WSLInstall.png" align=right width="50%">
 
 2) After this a download process will begin. After it's done, a reboot of the system will be required.
 3) Upon reboot Ubuntu will open and you will have to input an UNIX username and a password (hidden)
