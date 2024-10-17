@@ -1,3 +1,17 @@
+# Github Collaboration with forks and CI/CD
+
+In order to Collab on Github, one user must create a repo, and then their partner(s) must then fork the main repo. The main repo is referred to as the _upstream_ while the fork is the _downstream_. 
+
+* When creating a fork locally, you should utilize **git remote add origin <ssh_fork>**, and also create a reference to the upstream via **git remote upstream <ssh_main>
+
+
+  * When changes are made to the main repo, in order for the forked repo to be updated locally the **git fetch upstream** command is needed. 
+  * From there, **git pull --rebase upstream** is also used to sync the changes locally from the upstream. Additionally, you can change upstream to origin if you want to sync with your remote repo.
+  * When changes are made to the forked repo, the owner of the forked repo must create a pull request to reflect the changes which are only merged to the main repo with the upstream owner's permission.
+
+This brings the topic of CI/CD to automate the process of reviewing/testing the code of the contributors that fork and potentially merging it. 
+
+
 # How to Use CI-CD Pipeline within Github
 
 
@@ -34,4 +48,3 @@ The most basic definition of CI/CD is having you code being automatically tested
 
 * **GitHub Actions:** You might be wondering how to set it up, however it is made pretty simple by GitHub actions in which you can use a template to start or create your own .yml file that sets up the actions that trigger the CI/CD process and what exactly to do. 
 
-To find out more on the usage process checkout [CI-CD-Usage](/CI-CD-PipelineUsage.md)
