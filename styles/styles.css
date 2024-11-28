@@ -1,91 +1,141 @@
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #101820;
-    color: #ffffff;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background: #151515;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .nav-link {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  .hero {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: #14213d;
-  }
-  
-  .hero-content {
-    max-width: 50%;
-  }
-  
-  .hero h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  
-  .cta-buttons .btn-primary {
-    padding: 10px 20px;
-    background: #00b4d8;
-    border: none;
-    color: white;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .cta-buttons .btn-secondary {
-    padding: 10px 20px;
-    background: transparent;
-    border: 1px solid #00b4d8;
-    color: #00b4d8;
-    cursor: pointer;
-  }
-  
-  .hero-image img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  
-  .news-grid {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .news-item {
-    background: #252525;
-    padding: 20px;
-    flex: 1;
-    text-align: center;
-  }
-  
-  .testimonials {
-    background: #1a1a1a;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer {
-    text-align: center;
-    background: #151515;
-    padding: 20px;
-    color: #aaa;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ background: #101820;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #151515;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: 
+      linear-gradient(to bottom, #06402B
+, #00008B);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.cta-buttons .btn-primary {
+  padding: 10px 20px;
+  background: #00b4d8;
+  border: none;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-login {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block; /* Make the button a block element */
+  margin: 0px auto; /* Center the button horizontally */
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  cursor: pointer;
+}
+
+.cta-buttons .btn-secondary {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.news-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: 
+      linear-gradient(to bottom, #00008B ,#06402B);
+}
+
+.recent-news
+{
+linear-gradient(to bottom, #00008B, #06402B);
+}
+
+.news-item {
+  background: #252525;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  flex: 1;
+  text-align: center;
+}
+
+.testimonials {
+  background: #800080;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background: #151515;
+  padding: 20px;
+  color: #aaa;
+}
+
+
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid #00b4d8;
+  flex-direction: column; /* Added flex-direction */
+  margin: 0 auto; /* Added margin */
+  line-height: 1.8; /* Adjust spacing between lines */
+  letter-spacing: 0.5px; /* Slightly space out letters */
+ linear-gradient(to bottom, #06402B, #00008B);
+}
