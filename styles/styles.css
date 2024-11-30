@@ -66,6 +66,17 @@ header {
   margin: 0px auto; /* Center the button horizontally */
 }
 
+.btn-reg {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block; /* Make the button a block element */
+  margin: 0px auto; /* Center the button horizontally */
+}
+
 .btn-secondary {
   padding: 10px 20px;
   background: transparent;
@@ -122,7 +133,22 @@ footer {
   color: #aaa;
 }
 
-
+.reg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 70px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid #00b4d8;
+  flex-direction: column; /* Added flex-direction */
+  margin: 0 auto; /* Added margin */
+  line-height: 1.8; /* Adjust spacing between lines */
+  letter-spacing: 0.5px; /* Slightly space out letters */
+  background: linear-gradient(to bottom, #06402B, #00008B);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+} 
 
 .login-box {
   display: flex;
@@ -138,4 +164,96 @@ footer {
   line-height: 1.8; /* Adjust spacing between lines */
   letter-spacing: 0.5px; /* Slightly space out letters */
  linear-gradient(to bottom, #06402B, #00008B);
+  background: linear-gradient(to bottom, #06402B, #00008B);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+} 
+
+.articles-page {
+  padding: 20px;
+  background: #101820; /* Match the site's background */
+}
+
+/* Featured articles section */
+.top-articles {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.featured-article {
+  background: #06402B; /* Different color for top articles */
+  padding: 20px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* General articles section */
+.all-articles {
+  display: flex;
+  flex-wrap: wrap; /* Make the articles responsive */
+  gap: 20px;
+  justify-content: center;
+}
+
+.admin-view-articles .search-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.article-list .article-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.article-image {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin-right: 1rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+.actions button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.read-more {
+  background-color: #0073e6;
+}
+
+.edit-article {
+  background-color: #ffc107;
+}
+
+.delete-article {
+  background-color: #e63946;
 }
