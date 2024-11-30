@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
- background: #101820;
+  background: #101820;
   color: #ffffff;
 }
 
@@ -25,155 +25,36 @@ header {
   color: #ffffff;
 }
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: 
-      linear-gradient(to bottom, #06402B
-, #00008B);
-  background-size: cover;
-  background-position: center;
-
-}
-
-.hero-content {
-  max-width: 50%;
-}
-
-.hero h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-.cta-buttons .btn-primary {
-  padding: 10px 20px;
-  background: #00b4d8;
-  border: none;
-  color: white;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.btn-login {
-  padding: 10px 20px;
-  background: transparent;
-  border: 1px solid #00b4d8;
-  color: #00b4d8;
-  cursor: pointer;
-  border-radius: 5px;
-  display: block; /* Make the button a block element */
-  margin: 0px auto; /* Center the button horizontally */
-}
-
-.btn-reg {
-  padding: 10px 20px;
-  background: transparent;
-  border: 1px solid #00b4d8;
-  color: #00b4d8;
-  cursor: pointer;
-  border-radius: 5px;
-  display: block; /* Make the button a block element */
-  margin: 0px auto; /* Center the button horizontally */
-}
-
-.btn-secondary {
-  padding: 10px 20px;
-  background: transparent;
-  border: 1px solid #00b4d8;
-  color: #00b4d8;
-  cursor: pointer;
-}
-
-.cta-buttons .btn-secondary {
-  padding: 10px 20px;
-  background: transparent;
-  border: 1px solid #00b4d8;
-  color: #00b4d8;
-  cursor: pointer;
-}
-
-.hero-image img {
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-.news-grid {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  background: 
-      linear-gradient(to bottom, #00008B ,#06402B);
-}
-
-.recent-news
-{
-linear-gradient(to bottom, #00008B, #06402B);
-}
-
-.news-item {
-  background: #252525;
-  padding: 20px;
-  width: 200px;
-  height: 200px;
-  flex: 1;
-  text-align: center;
-}
-
-.testimonials {
-  background: #800080;
-  padding: 20px;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  background: #151515;
-  padding: 20px;
-  color: #aaa;
-}
-
-.reg-box {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  padding: 70px;
-  height: 400px;
-  width: 400px;
-  border-radius: 10px;
-  border: 2px solid #00b4d8;
-  flex-direction: column; /* Added flex-direction */
-  margin: 0 auto; /* Added margin */
-  line-height: 1.8; /* Adjust spacing between lines */
-  letter-spacing: 0.5px; /* Slightly space out letters */
-  background: linear-gradient(to bottom, #06402B, #00008B);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-} 
-
-.login-box {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  padding: 20px;
-  height: 400px;
-  width: 400px;
-  border-radius: 10px;
-  border: 2px solid #00b4d8;
-  flex-direction: column; /* Added flex-direction */
-  margin: 0 auto; /* Added margin */
-  line-height: 1.8; /* Adjust spacing between lines */
-  letter-spacing: 0.5px; /* Slightly space out letters */
- linear-gradient(to bottom, #06402B, #00008B);
-  background: linear-gradient(to bottom, #06402B, #00008B);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-} 
-
+/* Articles Page Styles */
 .articles-page {
   padding: 20px;
   background: #101820; /* Match the site's background */
 }
 
-/* Featured articles section */
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem 1rem;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+/* Top Articles Section */
 .top-articles {
   display: flex;
   justify-content: space-around;
@@ -192,7 +73,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* General articles section */
+/* General Articles Section */
 .all-articles {
   display: flex;
   flex-wrap: wrap; /* Make the articles responsive */
@@ -200,49 +81,38 @@ footer {
   justify-content: center;
 }
 
-.admin-view-articles .search-bar {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-}
-
-.search-bar input {
-  padding: 0.5rem;
-  border-radius: 4px 0 0 4px;
-  border: none;
-}
-
-.search-bar button {
-  padding: 0.5rem 1rem;
-  background-color: #0073e6;
-  color: white;
-  border: none;
-  border-radius: 0 4px 4px 0;
-}
-
-.article-list .article-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.article-image {
-  width: 100px;
-  height: 100px;
-  background-color: #ccc;
-  margin-right: 1rem;
+.news-item {
+  background: #252525; /* Match site's darker tone */
+  padding: 20px;
+  width: 250px;
   text-align: center;
-  line-height: 100px;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.news-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Actions for Articles */
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .actions button {
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: none;
+  padding: 5px 10px;
   border-radius: 4px;
+  border: none;
+  color: white;
   cursor: pointer;
 }
 
